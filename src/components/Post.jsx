@@ -18,8 +18,8 @@ const Post = ({ name, photo, date, post }) => {
 						<p>{moment(date).fromNow()}</p>
 					</div>
 					<div className='icons'>
-						<FontAwesomeIcon icon={faRemove} size='lg' />
-						<FontAwesomeIcon icon={faEllipsis} size='lg' />
+						<FontAwesomeIcon icon={faRemove} />
+						<FontAwesomeIcon icon={faEllipsis} />
 					</div>
 				</div>
 				<div className='image'>
