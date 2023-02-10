@@ -53,5 +53,12 @@
 .flex {
 	display: flex;
 	justify-content: flex-end;
-	padding: 0 19px;
+	padding: 0 24px;
+}
+.hidden {
+	opacity: 0;
+}
+.icons {
+	font-size: 2rem;
+	cursor: pointer;
 }

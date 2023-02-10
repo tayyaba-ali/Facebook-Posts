@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Post from './components/Post';
-import './components/Switch.css';
 import './Post.css';
 import PostData from './UserData';
 function App() {
@@ -13,7 +12,7 @@ function App() {
 			<div className='flex'>
 				<label className='outer'>
 					<span className='icons' style={{ color: isLit ? 'yellow' : 'white' }}>{`${isLit ? '☀︎' : '☽'}`}</span>
-					<input type='checkbox' className='input' onChange={() => setisLit(!isLit)} />
+					<input type='checkbox' className='hidden' onChange={() => setisLit(!isLit)} />
 				</label>
 			</div>
 
